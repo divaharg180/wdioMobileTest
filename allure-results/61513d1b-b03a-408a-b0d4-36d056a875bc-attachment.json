@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Password\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Password\"]/@id)] | .//*[@aria-label = \"Password\"] | .//input[@id = (//label[normalize-space() = \"Password\"]/@for)] | .//textarea[@id = (//label[normalize-space() = \"Password\"]/@for)] | .//input[//ancestor::label[normalize-space(text()) = \"Password\"]] | .//textarea[//ancestor::label[normalize-space(text()) = \"Password\"]] | .//input[@placeholder=\"Password\"] | .//textarea[@placeholder=\"Password\"] | .//input[@aria-placeholder=\"Password\"] | .//textarea[@aria-placeholder=\"Password\"] | .//*[not(self::label)][@title=\"Password\"] | .//img[@alt=\"Password\"] | .//*[not(self::label)][normalize-space(text()) = \"Password\"]"
+}

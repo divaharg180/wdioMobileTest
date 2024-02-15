@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: Recording 2/15/2024 at 4:23:13 PM tests Recording 2/15/2024 at 4:23:13 PM\",\"level\":\"info\"}}",
+  "args": []
+}

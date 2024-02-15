@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: My Login application should login with valid credentials\",\"level\":\"info\"}}",
+  "args": []
+}

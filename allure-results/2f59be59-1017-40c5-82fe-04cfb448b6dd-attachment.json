@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Your Username\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Your Username\"]/@id)] | .//*[@aria-label = \"Your Username\"] | .//input[@id = (//label[normalize-space() = \"Your Username\"]/@for)] | .//textarea[@id = (//label[normalize-space() = \"Your Username\"]/@for)] | .//input[//ancestor::label[normalize-space(text()) = \"Your Username\"]] | .//textarea[//ancestor::label[normalize-space(text()) = \"Your Username\"]] | .//input[@placeholder=\"Your Username\"] | .//textarea[@placeholder=\"Your Username\"] | .//input[@aria-placeholder=\"Your Username\"] | .//textarea[@aria-placeholder=\"Your Username\"] | .//*[not(self::label)][@title=\"Your Username\"] | .//img[@alt=\"Your Username\"] | .//*[not(self::label)][normalize-space(text()) = \"Your Username\"]"
+}
