@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1708074255041' stop='1708074265281'>
+    <name>upload</name>
+    <title>upload</title>
+    <test-cases>
+        <test-case start='1708074255042' status='failed' stop='1708074265280'>
+            <name>upload image 2nd way</name>
+            <title>upload image 2nd way</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='3-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='safari'/>
+            </parameters>
+            <steps>
+                <step start='1708074255441' status='passed' stop='1708074255496'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='cab40005-77d9-4de4-9ce0-c47e49c75221-attachment.json' type='application/json' size='162'/>
+                        <attachment title='Response' source='32aa195b-db81-4433-b12f-0ccebda2f01b-attachment.json' type='application/json' size='35'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708074255497' status='passed' stop='1708074259434'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ae2a480a-bd88-401d-8a92-38a6fa30d6d0-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708074261449' status='passed' stop='1708074261548'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7bd6eaaf-e27a-4b7f-95cf-5a3694bdb8ad-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='351143c0-bd21-4bc5-b443-5bb6a4fadd31-attachment.json' type='application/json' size='72'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708074261555' status='passed' stop='1708074261696'>
+                    <name>POST /session/:sessionId/element/5000/click</name>
+                    <title>POST /session/:sessionId/element/5000/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1708074261696' status='failed' stop='1708074265280'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='25a32685-c6f3-446e-ac11-4efd7e407238-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: An unknown server-side error occurred while processing the command. Original error: Unsupported locator strategy: accessibility id</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: Unsupported locator strategy: accessibility id
+                    at async UserContext.&lt;anonymous> (D:\New folder\wdio\wdioMobileTest\test\specs\upload.mobile.spec.ts:49:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

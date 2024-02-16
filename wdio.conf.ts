@@ -30,7 +30,7 @@ export const config: WebdriverIOConfig = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/**/pdfDownload.spec.ts'
+        './test/specs/**/test.spec.ts'
     ],
     // Patterns to exclude.
     exclude: [

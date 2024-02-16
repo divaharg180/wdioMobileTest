@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1708078731304' stop='1708078732036'>
+    <name>upload  test </name>
+    <title>upload  test </title>
+    <test-cases>
+        <test-case start='1708078731305' status='failed' stop='1708078732035'>
+            <name>tests upload</name>
+            <title>tests upload</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='3-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='safari'/>
+            </parameters>
+            <steps>
+                <step start='1708078731670' status='passed' stop='1708078731721'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='14913323-7f3c-440b-89d2-b474bc2cf5d4-attachment.json' type='application/json' size='161'/>
+                        <attachment title='Response' source='10b43295-fd9b-46c9-bec9-874af0c4e220-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708078731722' status='failed' stop='1708078732035'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='1def0a90-89fe-4303-b8fd-ede943a5c864-attachment.json' type='application/json' size='62'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown method: Method has not yet been implemented</message>
+                <stack-trace>unknown method: Method has not yet been implemented
+                    at async UserContext.&lt;anonymous> (D:\New folder\wdio\wdioMobileTest\test\specs\upload.spec.ts:6:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

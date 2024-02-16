@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: upload upload image 2nd way\",\"level\":\"info\"}}",
+  "args": []
+}

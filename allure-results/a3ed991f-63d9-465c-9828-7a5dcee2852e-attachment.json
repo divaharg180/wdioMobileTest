@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(@text, \"Accept\")]\"}\n  (Session info: chrome=120.0.6099.144)",
+  "stacktrace": "#0 0x55bbe584cf83 <unknown>\n#1 0x55bbe5505cf7 <unknown>\n#2 0x55bbe555599e <unknown>\n#3 0x55bbe5555aa1 <unknown>\n#4 0x55bbe55a0d64 <unknown>\n#5 0x55bbe557f0dd <unknown>\n#6 0x55bbe559e006 <unknown>\n#7 0x55bbe557ee53 <unknown>\n#8 0x55bbe5546dd4 <unknown>\n#9 0x55bbe55481de <unknown>\n#10 0x55bbe5811531 <unknown>\n#11 0x55bbe5815455 <unknown>\n#12 0x55bbe57fdf55 <unknown>\n#13 0x55bbe58160ef <unknown>\n#14 0x55bbe57e199f <unknown>\n#15 0x55bbe583a008 <unknown>\n#16 0x55bbe583a1d7 <unknown>\n#17 0x55bbe584c124 <unknown>\n#18 0x7f498d8f1e9e start_thread\n"
+}

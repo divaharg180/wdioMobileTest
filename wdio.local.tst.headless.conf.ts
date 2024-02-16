@@ -7,7 +7,8 @@ export const config: WebdriverIO.Config = {
             {
                 browserName: 'chrome',
                 specs: [
-                    './test/specs/**/pdfDownload.spec.ts'
+                    './test/specs/**/pdfDownload.spec.ts',
+                    './test/specs/**/test.spec.ts'
 
                 ],
                 'goog:chromeOptions': {

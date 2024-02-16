@@ -6,8 +6,8 @@ import allureReporter from '@wdio/allure-reporter'
 
 export const config: Omit<WebdriverIO.Config, 'capabilities'> = {
 
-    user: "divaharg_gHYyQM",
-    key: "KjZxZEJiXC5EtxXxs6ox",
+    user: "jegadeeshwaranm_swvxKX",
+    key: "EzSCZwyqgVEtzj1zYr2X",
     host: 'hub.browserstack.com',
     //
     // ====================
@@ -44,8 +44,12 @@ export const config: Omit<WebdriverIO.Config, 'capabilities'> = {
     //
     maxInstances: 4,
     //
-specs:[          './test/specs/**/*.ts'
-],
+    specs: ['./test/specs/**/*.ts'
+    ],
+    enablePopups: true,
+    allowAllCookies: true,
+//   autoAcceptPermissions: 'true',
+//     autoAcceptAlerts: 'True',
 
     // specFileRetries: 1,
     // ===================
@@ -112,7 +116,10 @@ specs:[          './test/specs/**/*.ts'
     use: {
         headless: false,
         screenshot: "only-on-failure",
-        video: "only-on-failure"
+        video: "only-on-failure",
+        'safariAllowPopups': 'true',
+        'autoAcceptPermissions': 'true',
+        'autoAcceptAlerts': 'True',
     },
     // Default request retries count
     retries: 3,

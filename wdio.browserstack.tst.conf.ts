@@ -36,14 +36,14 @@ export const config: WebdriverIO.Config = {
       {
         browserName: 'chrome',
         specs: [
-          './test/specs/**/upload.mobile.spec.ts'
+        //  './test/specs/**/upload.mobile.spec.ts'
 
         ],
         'bstack:options': {
           deviceName: 'Samsung Galaxy S20',
           platformVersion: '10',
           platformName: 'android',
-          buildName: 'Test_Divahar',
+          buildName: 'Test_DivaharMobile',
           buildTag: 'regression',
           projectName: 'Test',
         },
@@ -61,23 +61,24 @@ export const config: WebdriverIO.Config = {
           buildName: 'Test_Divahar',
           buildTag: 'regression',
           projectName: 'Test',
-          geoLocation: 'US',
           resolution: '2560x1600',
         }
       },
 
       {
-        browserName: 'Safari',
+        browserName: 'safari',
         specs: [
-       
+          './test/specs/**/upload.mobile.spec.ts',
+
+
         ],
         'bstack:options': {
-          deviceName: 'iPhone 14',
+          deviceName: 'iPhone 11',
           buildName: 'Test_DivaharMobile',
           buildTag: 'regression',
           projectName: 'Test',
-          geoLocation: 'US',
-        },
+        
+       },
       },
     ],
 

@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1708073745583' stop='1708073751938'>
+    <name>upload</name>
+    <title>upload</title>
+    <test-cases>
+        <test-case start='1708073745584' status='failed' stop='1708073751936'>
+            <name>tests upload</name>
+            <title>tests upload</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='3-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='safari'/>
+            </parameters>
+            <steps>
+                <step start='1708073746087' status='passed' stop='1708073746143'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='698a3966-220c-4764-9113-8742580e78e8-attachment.json' type='application/json' size='154'/>
+                        <attachment title='Response' source='30b99db8-e326-40a7-8158-1c3e88d382e7-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708073746144' status='passed' stop='1708073746278'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e70a29cc-e489-4832-80a0-e874c5ff7091-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='280e28fa-7db4-46d8-a4ed-e5243e616233-attachment.json' type='application/json' size='918'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708073746287' status='passed' stop='1708073749548'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8b836eb3-3b3b-416c-9ea3-e44692198b54-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708073749549' status='passed' stop='1708073749619'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='2237de25-67e9-4be9-8edf-d90a9113e666-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708073749621' status='passed' stop='1708073749729'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='553accd8-980f-4ad8-8b40-6393edf89181-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='695f046f-a5a3-4389-9b63-6fab6d60852c-attachment.json' type='application/json' size='72'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708073749734' status='passed' stop='1708073749828'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='90e66ec6-1f17-4ce9-b664-79ace79b9020-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='adc20b19-a4f4-4336-bfdb-1aeef1230990-attachment.json' type='application/json' size='72'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708073749831' status='passed' stop='1708073749924'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='16052d4c-5fb6-4204-8ab6-5739926141ed-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='5be35b2f-410e-4adc-ad5a-b340ba6772fc-attachment.json' type='application/json' size='72'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1708073749928' status='failed' stop='1708073751935'>
+                    <name>POST /session/:sessionId/element/5002/value</name>
+                    <title>POST /session/:sessionId/element/5002/value</title>
+                    <attachments>
+                        <attachment title='Request' source='82278574-0658-45a4-8987-3944a018d61e-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    element not visible: The object is in an invalid state.
+                --- End of stack trace ---
+                
+                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })
+                    element not visible: The object is in an invalid state.
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    element not visible: The object is in an invalid state.
+                --- End of stack trace ---
+                
+                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })
+                    element not visible: The object is in an invalid state.
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (file:///D:/node_modules/@wdio/allure-reporter/build/utils.js:62:60)
+                    at AllureReporter.onTestFail (file:///D:/node_modules/@wdio/allure-reporter/build/reporter.js:237:38)
+                    at AllureReporter.&lt;anonymous> (file:///D:/node_modules/@wdio/reporter/build/index.js:121:18)
+                    at AllureReporter.emit (node:events:514:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at file:///D:/New%20folder/wdio/wdioMobileTest/node_modules/@wdio/runner/build/reporter.js:47:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (file:///D:/New%20folder/wdio/wdioMobileTest/node_modules/@wdio/runner/build/reporter.js:47:25)
+                    at JasmineReporter.emit (file:///D:/New%20folder/wdio/wdioMobileTest/node_modules/@wdio/jasmine-framework/build/reporter.js:175:24)
+                    at JasmineReporter.specDone (file:///D:/New%20folder/wdio/wdioMobileTest/node_modules/@wdio/jasmine-framework/build/reporter.js:105:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

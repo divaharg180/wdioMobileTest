@@ -1,11 +1,13 @@
 exports.config = {
-    user: process.env.LT_USERNAME || "divaharg509",
-    key: process.env.LT_ACCESS_KEY || "WJelZfv7TAHrWgTsvYMw1rKJwHUPnRK14NGjOFGzbEvU0HdvGj",
+    user: process.env.LT_USERNAME || "balamurugancoretopia",
+    key: process.env.LT_ACCESS_KEY || "Bx7MwP9u3k0YYyiKqL8Me3QcFabb51doAMd1xWv0YJkwAmlY7B",
 
     updateJob: false,
     specs: [
      // './test/specs/**/pdfDownload.spec.ts',
-     './test/specs/**/upload.spec.ts'
+    './test/specs/**/upload.spec.ts',
+     './test/specs/**/upload.mobile.spec.ts'
+
     ],
     exclude: [],
 
@@ -20,11 +22,11 @@ exports.config = {
     },
 
     capabilities: [
-        {
-            browserName: "chrome",
-            version: "latest",
-            platform: "WIN10",
-        },
+        // {
+        //     browserName: "chrome",
+        //     version: "latest",
+        //     platform: "WIN10",
+        // },
         // {
         //     browser: "firefox",
         //     version: "latest",
@@ -35,11 +37,17 @@ exports.config = {
         //     version: "latest",
         //     platform: "WIN10",
         // },
-        // {
-        //     browser: "MicrosoftEdge",
-        //     version: "latest",
-        //     platform: "WIN10",
-        // },
+        {
+            browser: "MicrosoftEdge",
+            version: "latest",
+            platform: "WIN10",
+        },
+        {
+            browserName: "chrome",
+            platformName: "Android",
+            platformVersion: "11.0",
+            deviceName: "Samsung Galaxy",
+        }
     ],
 
     logLevel: "info",
